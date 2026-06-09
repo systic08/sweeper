@@ -1,9 +1,9 @@
 /* --- 1. VARIABLES --- */
 :root {
-    --color-primario: #007bff; /* Color principal (azul) */
+    --color-primario: #991dca; /* Color principal (azul) */
     --color-oscuro: #1a1a1a; /* Color oscuro para textos fuertes */
-    --color-texto: #444; /* Color general del texto */
-    --blanco: #ffffff; /* Color blanco */
+    --color-texto: #e61d99; /* Color general del texto */
+    --blanco: #000000; /* Color blanco */
     --sombra: 0 10px 30px rgba(0,0,0,0.1); /* Sombra suave */
     --transicion: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1); /* Animación suave */
 }
@@ -18,7 +18,7 @@
 /* Configuración general del body */
 body {
     font-family: 'Poppins', sans-serif; /* Fuente */
-    background-color: #fdfdfd; /* Fondo claro */
+    background-color: #701d40; /* Fondo claro */
     color: var(--color-texto); /* Color del texto */
     display: flex;
     flex-direction: column;
@@ -365,7 +365,7 @@ footer {
     outline: none;
 }
 
-}
+
 
 .btn-comprar {
     padding: 12px 30px;
